@@ -1,8 +1,7 @@
 import Container from "@/components/container";
 import ThemeSwitch from "@/components/themeSwitch";
-import Image from "next/image";
-import { myLoader } from "@/utils/all";
-import VercelLogo from "../public/img/vercel.svg";
+// import Image from "next/image";
+// import { myLoader } from "@/utils/all";
 
 export default function Footer(props) {
   return (
@@ -12,14 +11,14 @@ export default function Footer(props) {
         rights reserved.
       </div>
       <div className="mt-1 flex justify-center gap-1 text-center text-sm text-gray-500 dark:text-gray-600">
-        <span>
+        {/* <span>
           {" "}
-          Made by{" "}
-          {/*  // ** 🙏  Can I ask you a favor? 🙏 **
+          Made by{" "} */}
+        {/*  // ** 🙏  Can I ask you a favor? 🙏 **
             // Please do not remove the below link.
            // It helps us to grow & continue our work. Thank you.
           // OR Purchase PRO version for commercial license.  */}
-          <a
+        {/* <a
             href="https://web3templates.com/?ref=stablo-template"
             rel="noopener"
             target="_blank">
@@ -35,9 +34,9 @@ export default function Footer(props) {
             target="_blank">
             Github
           </a>
-        </span>
+        </span> */}
       </div>
-      <ThemeSwitch />
+      {/* <ThemeSwitch /> */}
       <div className="mt-2 flex items-center justify-between">
         {/* <div className="mt-5">
           <a
