@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://tacticalzone.co
+Host: https://tacticalgamer.co
 
 # Sitemaps
-Sitemap: https://tacticalzone.co/sitemap.xml
+Sitemap: https://tacticalgamer.co/sitemap.xml

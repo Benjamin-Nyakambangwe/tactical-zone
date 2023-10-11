@@ -36,7 +36,7 @@ export default function About({ authors, settings }) {
 
       <div className="prose mx-auto mt-14 text-center dark:prose-invert">
         <p>
-          Welcome to Tactical Zone, your ultimate destination for all
+          Welcome to Tactical Gamer, your ultimate destination for all
           things tactical gaming. We're here to help you discover
           tips, tricks, and guides for various tactical game modes,
           along with the latest news and in-depth analysis from the
@@ -44,7 +44,7 @@ export default function About({ authors, settings }) {
         </p>
         <p>
           Whether you're a seasoned player or just beginning your
-          journey, Tactical Zone is your go-to source for sharpening
+          journey, Tactical Gamer is your go-to source for sharpening
           your skills and staying informed in the realm of tactical
           gaming. Join us and elevate your gaming experience today.
         </p>
