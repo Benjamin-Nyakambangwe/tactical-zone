@@ -13,7 +13,7 @@ export default function About({ authors, settings }) {
         <p className="text-lg">We are a small passionate team.</p>
       </div>
 
-      <div className="mb-16 mt-6 grid grid-cols-3 gap-5 md:mb-32 md:mt-16 md:gap-16">
+      {/* <div className="mb-16 mt-6 grid grid-cols-3 gap-5 md:mb-32 md:mt-16 md:gap-16">
         {authors.slice(0, 3).map(author => {
           const imageProps = urlForImage(author?.image) || null;
           return (
@@ -32,18 +32,18 @@ export default function About({ authors, settings }) {
             </div>
           );
         })}
-      </div>
+      </div> */}
 
       <div className="prose mx-auto mt-14 text-center dark:prose-invert">
         <p>
           Welcome to Tactical Gamer, your ultimate destination for all
-          things tactical gaming. We're here to help you discover
+          things tactical gaming. We are here to help you discover
           tips, tricks, and guides for various tactical game modes,
           along with the latest news and in-depth analysis from the
           world of tactical gaming.
         </p>
         <p>
-          Whether you're a seasoned player or just beginning your
+          Whether you are a seasoned player or just beginning your
           journey, Tactical Gamer is your go-to source for sharpening
           your skills and staying informed in the realm of tactical
           gaming. Join us and elevate your gaming experience today.
