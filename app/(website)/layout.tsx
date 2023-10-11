@@ -2,6 +2,7 @@ import { getSettings } from "@/lib/sanity/client";
 import Footer from "@/components/footer";
 import { urlForImage } from "@/lib/sanity/image";
 import Navbar from "@/components/navbar";
+import GoogleAnalytics from "./GoogleAnalytics";
 
 export async function sharedMetaData(params) {
   const settings = await getSettings();
@@ -50,6 +51,7 @@ export default async function Layout({ children, params }) {
   const settings = await getSettings();
   return (
     <>
+      <GoogleAnalytics />
       <Navbar {...settings} />
 
       <div>{children}</div>
