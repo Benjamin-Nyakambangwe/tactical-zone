@@ -65,7 +65,7 @@ export default async function PostDefault({ params }) {
           // },
         ]}
         publisherName="tactical Gamer"
-        publisherLogo="/img/opengraph.jpg"
+        publisherLogo="/img/fav-logo.png"
         description={post.excerpt}
         isAccessibleForFree={true}
       />
