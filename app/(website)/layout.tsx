@@ -12,14 +12,13 @@ export async function sharedMetaData(params) {
     title: {
       default:
         settings?.title ||
-        "Stablo - Blog Template for Next.js & Sanity CMS",
-      template: "%s | Stablo"
+        "Tactical Gamer — Everything Tactical Games"
     },
     description:
       settings?.description ||
-      "Stablo - popular open-source next.js and sanity blog template",
-    keywords: ["Next.js", "Sanity", "Tailwind CSS"],
-    authors: [{ name: "Surjith" }],
+      "Tactical Gamer — Everything Tactical Games",
+    // keywords: ["Next.js", "Sanity", "Tailwind CSS"],
+    // authors: [{ name: "Surjith" }],
     canonical: settings?.url,
     openGraph: {
       images: [
@@ -33,7 +32,7 @@ export async function sharedMetaData(params) {
       ]
     },
     twitter: {
-      title: settings?.title || "Stablo Template",
+      title: settings?.title || "Tactical Gamer",
       card: "summary_large_image"
     },
     robots: {
