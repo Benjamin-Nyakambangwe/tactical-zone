@@ -11,30 +11,25 @@ export default function Footer(props) {
         rights reserved.
       </div>
       <div className="mt-1 flex justify-center gap-1 text-center text-sm text-gray-500 dark:text-gray-600">
-        {/* <span>
+        <span>
           {" "}
-          Made by{" "} */}
-        {/*  // ** 🙏  Can I ask you a favor? 🙏 **
-            // Please do not remove the below link.
-           // It helps us to grow & continue our work. Thank you.
-          // OR Purchase PRO version for commercial license.  */}
-        {/* <a
-            href="https://web3templates.com/?ref=stablo-template"
+          <a
+            href="https://twitter.com/_tacticalgamer"
             rel="noopener"
             target="_blank">
-            Web3Templates
+            Twitter/X
           </a>
         </span>
         <span>&middot;</span>
         <span>
           {" "}
           <a
-            href="https://github.com/web3templates/stablo"
+            href="https://www.youtube.com/@tacticalgamerTV"
             rel="noopener"
             target="_blank">
-            Github
+            Youtube
           </a>
-        </span> */}
+        </span>
       </div>
       {/* <ThemeSwitch /> */}
       <div className="mt-2 flex items-center justify-between">

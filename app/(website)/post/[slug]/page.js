@@ -64,7 +64,7 @@ export default async function PostDefault({ params }) {
           //   url: 'https://example.com',
           // },
         ]}
-        publisherName={post.author.name}
+        publisherName="tactical Gamer"
         publisherLogo="/img/opengraph.jpg"
         description={post.excerpt}
         isAccessibleForFree={true}
